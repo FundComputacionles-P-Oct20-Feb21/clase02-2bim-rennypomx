@@ -12,10 +12,11 @@
 9.  notasEstudiantes[1][2] <-- 7
 10. Para(fila<--0, fila<2, 1) haga
 11.   Para(columna<--0, columna<3, 1) haga
-12.     Escribir fila+" "+columna +" valor: "+notasEstudiantes[fila][columna] 
-13.   Fin_Para 
-14. Fin_Para 
-15. Fin
+12. suma <-- suma+notasEstudiante[fila][columna]
+13.     Escribir fila+" "+columna +" valor: "+notasEstudiantes[fila][columna] 
+14.   Fin_Para 
+15. Fin_Para 
+16. Fin
 
 // 0 0 valor 10 
 // 0 1 valor 7
